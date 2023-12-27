@@ -22,6 +22,7 @@ function ToDoList() {
                 ))}
             </select>
             <AddCategory />
+            <hr/>
             <CreateToDo/>
             {toDos?.map((toDo) => (
                 <ToDo key={toDo.id} {...toDo} />
